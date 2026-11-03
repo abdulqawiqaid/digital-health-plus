@@ -13,4 +13,4 @@ exclude = [
 
 [hosts."digitalhealthplus.blogspot.com"]
 concurrency = 1
-request_interval = 3
+request_interval = "3s"
