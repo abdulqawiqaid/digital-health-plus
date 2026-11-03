@@ -4,8 +4,8 @@
 
 - **Project:** Digital Health Plus
 - **Publication platform:** Blogger
-- **Live URL:** https://digitalhealthplus.blogspot.com
-- **Source-control repository:** https://github.com/abdulqawiqaid/digital-health-plus
+- **Live URL:** <https://digitalhealthplus.blogspot.com>
+- **Source-control repository:** <https://github.com/abdulqawiqaid/digital-health-plus>
 
 ## Mission
 
