@@ -8,7 +8,7 @@ retry_wait_time = 1
 exclude = [
   '^mailto:',
   '^tel:',
-  '^https://digitalhealthplus\\.blogspot\\.com/?$',
+  '^https://digitalhealthplus\.blogspot\.com/?$',
 ]
 
 [hosts."digitalhealthplus.blogspot.com"]
