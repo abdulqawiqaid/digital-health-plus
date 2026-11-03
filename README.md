@@ -59,13 +59,15 @@ digital-health-plus/
 
 ## Current status
 
-The repository has an established documentation and governance baseline. A documentation-quality workflow has been added on the review branch for Markdown linting and link checking. The main-branch protection document is a proposal only; repository settings have not been changed.
+The repository has an established documentation and governance baseline. The documentation-quality workflow is active on `main` and checks Markdown formatting and documentation links. The main-branch protection document is a proposal only; repository settings have not been changed.
 
 The live Blogger site and its runtime behavior have not been certified by the repository documentation workflow. Outstanding live-site checks remain tracked separately and require direct evidence.
 
 ## Documentation checks
 
-GitHub Actions runs Markdown linting and link checking for pushes to `main` and `audit/**`, pull requests targeting `main`, and manual dispatches. External websites may rate-limit automated requests; investigate failures before treating them as confirmed broken links.
+GitHub Actions runs Markdown linting and link checking for pushes to `main`, pull requests targeting `main`, and manual dispatches. The workflow does not run on pushes to arbitrary feature branches. Its link-check step loads `.lychee.toml`; the Blogger homepage is excluded because hosted CI receives Google's automated HTTP 429 challenge for that URL. Other documentation links remain subject to checking.
+
+External websites may rate-limit automated requests; investigate failures before treating them as confirmed broken links.
 
 These checks do not validate medical claims, inspect the live Blogger runtime, scan for secrets, or deploy content to Blogger.
 
