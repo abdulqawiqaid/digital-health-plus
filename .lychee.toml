@@ -1,0 +1,10 @@
+# Link checker defaults for Markdown documentation.
+# External sites may rate-limit automated requests; retries are configured in CI.
+max_concurrency = 8
+timeout = 20
+max_retries = 2
+retry_wait_time = 2
+exclude = [
+  '^mailto:',
+  '^tel:',
+]
