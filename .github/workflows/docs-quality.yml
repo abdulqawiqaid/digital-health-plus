@@ -34,9 +34,9 @@ jobs:
             !node_modules
 
   links:
-    name: Check documentation links
+    name: Link check
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -47,8 +47,9 @@ jobs:
           args: >-
             --verbose
             --no-progress
-            --max-retries 2
-            --timeout 20
+            --max-concurrency 16
+            --max-retries 0
+            --timeout 10
             './**/*.md'
           fail: true
         env:
