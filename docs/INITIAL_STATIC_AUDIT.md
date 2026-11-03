@@ -2,7 +2,7 @@
 
 **Review date:** 2026-11-03  
 **Input:** Blogger theme XML supplied for review  
-**Site:** https://digitalhealthplus.blogspot.com/  
+**Site:** <https://digitalhealthplus.blogspot.com/>  
 **Method:** Static source inspection only. The template and scripts were not executed. The live site, HTTP responses, rendered pages, Search Console, PageSpeed, and AdSense account were not independently verified.
 
 ## Executive summary

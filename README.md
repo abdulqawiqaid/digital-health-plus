@@ -1,6 +1,6 @@
 # Digital Health Plus
 
-**Official blog:** https://digitalhealthplus.blogspot.com
+**Official blog:** <https://digitalhealthplus.blogspot.com>
 
 Digital Health Plus is an educational publication focused on digital health, healthcare innovation, medical informatics, health information systems, and the responsible use of artificial intelligence in healthcare.
 

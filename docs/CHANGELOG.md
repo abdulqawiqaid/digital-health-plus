@@ -5,6 +5,7 @@ All notable repository changes should be recorded here. This file tracks reposit
 ## [Unreleased]
 
 ### Added
+
 - Initial project documentation structure.
 - Project overview and editorial governance guidance.
 - Contribution and security reporting instructions.
@@ -15,11 +16,13 @@ All notable repository changes should be recorded here. This file tracks reposit
 - Scientific and clinical content review checklist.
 
 ### Changed
+
 - README repository map and project status clarified.
 - Contribution guidance updated to describe automated documentation checks.
 
 ### Notes
-- Live publication: https://digitalhealthplus.blogspot.com
+
+- Live publication: <https://digitalhealthplus.blogspot.com>
 - Blogger remains the publishing platform.
 - No automated deployment or Blogger synchronization is configured.
 - Documentation CI validates repository Markdown and links; it does not audit the live Blogger site or validate medical claims automatically.
